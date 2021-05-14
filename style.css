@@ -1,0 +1,54 @@
+#Header1, #navbar-iframe-container, .feed-links, .post-title {
+    display:none
+} 
+.inline {
+    display:inline-block;
+    margin-right:1rem;
+}
+.body-text-color {
+    color: #25A186
+}
+.navbar {
+    background-color: #FFF;
+}
+.navbar a{
+    color: #0D6EFD!important;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.banner-desktop {
+    display:none
+}
+.overview .card-body, .overview .card-header {
+    background: #0D6EFD;
+    color: #FFF;   
+}        
+.location-imgae {
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+    max-width: 100%;
+}
+.location-imgae::before {
+    content: "";
+    display: block;padding-top: 100%;
+}
+        .location-imgae .image {position: absolute;top: 0;left: 0; bottom: 0;right: 0;margin: auto;background-size: cover;background-position: center;}
+        #location-image-1 {background-image: url("https://1.bp.blogspot.com/-f6HPaMfF2gw/YJ3Omq7Ri2I/AAAAAAAAAQU/VnayTkYnSlc5tUq3aBAWB3LUyu4ZutrDACLcBGAsYHQ/s0/5-phut-den-san-bay-long-thanh.jpg");}
+        #location-image-2 {background-image: url("https://1.bp.blogspot.com/-R-8ey-5bqaw/YJ3RnhunCbI/AAAAAAAAAQc/-o5mg7cfZvsFgAbPrXuxPA_uFO1LvS2lgCLcBGAsYHQ/s0/10-phut-den-san-golf-long-thanh.jpg");}
+        #location-image-3 {background-image: url("https://1.bp.blogspot.com/-RxStbvBkPv0/YJ3Sd73fPPI/AAAAAAAAAQk/PmBhVdzvP_0gbN5AzQK2TNFRi0AYN9YVQCLcBGAsYHQ/s0/20-phut-den-bien-hoa.jpg");}
+        #location-image-4{background-image: url("https://1.bp.blogspot.com/-wASZZqYkIsE/YJ3TPFroMKI/AAAAAAAAAQ0/DXPKHUGfYvIEMnGecsbqkiJOuUz9N2bpgCLcBGAsYHQ/s0/40-phut-den-hcm.jpg");}
+        #location-image-5 {background-image: url("https://1.bp.blogspot.com/-miEK4r5THaQ/YJ3TPBsPa4I/AAAAAAAAAQs/xhZEkuoP7oEaPKP3gXCYZGjkXD3aaZcKQCLcBGAsYHQ/s0/50-phut-den-cang.jpg");}
+        #location-image-6 {background-image: url("https://1.bp.blogspot.com/-_-qJ6sNkpno/YJ3TPLc1YJI/AAAAAAAAAQw/nsSuapL8-lwyK4pZZicGed_hV39Y7EUDQCLcBGAsYHQ/s0/60-phut-den-vung-tau.jpg");}
+        .youtube {
+            width: 100%;
+            height: 80vw;
+            max-height: 300px;
+        }
+        p {text-align:justify}
+        @media only screen and (min-width: 768px) {
+            .banner-desktop {display:block}
+            .banner-mobile {display:none}
+            .overview .alert-info {height: 300px}
+        }
